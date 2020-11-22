@@ -1,6 +1,7 @@
 package com.design.patterns.creational.prototype;
 
 
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 @Service

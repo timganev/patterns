@@ -4,7 +4,7 @@ well-proved solution for solving the specific problems
 ### Creational Pattern
 1. Factory Pattern - most used pattern. In Factory pattern, we create object without exposing the creation logic 
 2. Singleton Pattern - involves a single class 
-3. Build Pattern - builds a complex object using simple objects and using a step by step approach.	
+3. Builder Pattern - builds a complex object using simple objects and using a step by step approach.	
 4. Prototype pattern - refers to creating duplicate object while keeping performance in mind.	
 
 ### Structural Pattern

@@ -1,8 +1,7 @@
 package com.design.patterns.config;
 
 
-import com.design.patterns.creational.builder.BuilderService;
-import com.design.patterns.creational.prototype.PrototypeService;
+import com.design.patterns.PatternService;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -11,17 +10,9 @@ import org.springframework.context.annotation.Configuration;
 public class BeanConfig {
 
   @Bean
-  CommandLineRunner runner(BuilderService builderService, PrototypeService prototypeService)  {
-
+  CommandLineRunner runner(PatternService service)  {
     return args -> {
-
-      System.out.println("============creational=============");
-      builderService.print();
-      prototypeService.print();
-
-
+      service.printPatterns();
     };
   }
-
-
 }
