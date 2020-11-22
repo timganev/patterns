@@ -6,7 +6,9 @@ import org.springframework.stereotype.Service;
 public class BuilderService {
 
   public void print() {
-    Phone p = new PhoneBuilder().setRam(1024).setOs("Android").build();
-    System.out.println("Builder pattern demo: "+p.getOs());
+    Phone phone = new PhoneBuilder().setRam(1024).setOs("Android").build();
+    System.out.println("===================================");
+    System.out.println("Builder pattern demo: ");
+    System.out.println(phone);
   }
 }

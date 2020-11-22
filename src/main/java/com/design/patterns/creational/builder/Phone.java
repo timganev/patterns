@@ -46,4 +46,14 @@ public class Phone {
   public void setRam(int ram) {
     this.ram = ram;
   }
+
+  @Override
+  public String toString() {
+    return "Phone{" +
+        "os='" + os + '\'' +
+        ", procesor='" + procesor + '\'' +
+        ", battery=" + battery +
+        ", ram=" + ram +
+        '}';
+  }
 }
