@@ -14,15 +14,17 @@ public class DecoratorService {
     System.out.println("===================================");
     System.out.println("Decorator pattern demo: ");
 
+    Dough dough = new Dough();
+
     System.out.println("Order 1:");
-    Pizza pizza = new Mozzarella(new TomatoSauce(new Dough()));
+    Pizza pizza = new Mozzarella(new TomatoSauce(dough));
     System.out.println("Ingredients: "+pizza.getDescription());
     System.out.println("Price: "+pizza.getCost());
 
     System.out.println();
 
     System.out.println("Order 2:");
-    Pizza pizza2 = new Mozzarella(new Proshuto(new Dough()));
+    Pizza pizza2 = new Mozzarella(new Proshuto(dough));
     System.out.println("Ingredients: "+pizza2.getDescription());
     System.out.println("Price: "+pizza2.getCost());
 

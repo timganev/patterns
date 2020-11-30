@@ -1,9 +1,9 @@
 package com.design.patterns.structural.decorator.toppings;
 
 import com.design.patterns.structural.decorator.Pizza;
-import com.design.patterns.structural.decorator.ToppingDecorator;
+import com.design.patterns.structural.decorator.PizzaDecorator;
 
-public class Proshuto extends ToppingDecorator {
+public class Proshuto extends PizzaDecorator {
 
   public Proshuto(Pizza newPizza) {
     super(newPizza);

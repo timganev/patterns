@@ -1,10 +1,10 @@
 package com.design.patterns.structural.decorator;
 
-public abstract class ToppingDecorator implements Pizza {
+public abstract class PizzaDecorator implements Pizza {
 
   protected Pizza tempPizza;
 
-  public ToppingDecorator(Pizza newPizza) {
+  public PizzaDecorator(Pizza newPizza) {
     tempPizza = newPizza;
   }
 
