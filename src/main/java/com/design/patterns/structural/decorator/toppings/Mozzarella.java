@@ -1,4 +1,7 @@
-package com.design.patterns.structural.decorator;
+package com.design.patterns.structural.decorator.toppings;
+
+import com.design.patterns.structural.decorator.Pizza;
+import com.design.patterns.structural.decorator.ToppingDecorator;
 
 public class Mozzarella extends ToppingDecorator {
 

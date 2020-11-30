@@ -1,4 +1,7 @@
-package com.design.patterns.structural.decorator;
+package com.design.patterns.structural.decorator.toppings;
+
+import com.design.patterns.structural.decorator.Pizza;
+import com.design.patterns.structural.decorator.ToppingDecorator;
 
 public class TomatoSauce extends ToppingDecorator {
 
@@ -12,6 +15,6 @@ public class TomatoSauce extends ToppingDecorator {
   }
 
   public double getCost() {
-    return tempPizza.getCost()+0.54;
+    return tempPizza.getCost()+0.55;
   }
 }

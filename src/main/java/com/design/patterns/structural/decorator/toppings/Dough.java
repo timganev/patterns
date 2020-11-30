@@ -1,6 +1,8 @@
-package com.design.patterns.structural.decorator;
+package com.design.patterns.structural.decorator.toppings;
 
-public class PlainPizza implements Pizza{
+import com.design.patterns.structural.decorator.Pizza;
+
+public class Dough implements Pizza {
 
   @Override
   public String getDescription() {
